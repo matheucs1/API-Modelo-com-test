@@ -1,0 +1,21 @@
+{
+  "name": "exemplo",
+  "version": "1.0.0",
+  "description": "Minha primeira api em nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest ./test/integration/*"
+  },
+  "author": "Renan Ponick",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.3",
+    "jest": "^30.0.4",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
